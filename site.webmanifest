@@ -1,6 +1,7 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Mr Coxall's App",
+  "short_name": "Mr Coxall's App",
+  "start_url": "/",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
