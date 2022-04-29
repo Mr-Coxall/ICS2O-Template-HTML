@@ -21,6 +21,7 @@ jobs:
         with:
           # run Prettier and change code that needs fixing, before next section
           prettier_options: --write **/*.{html,css,js,md}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run GitHub Super Linter
         uses: github/super-linter@main
