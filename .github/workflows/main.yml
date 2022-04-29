@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Prettify code
-        uses: creyD/prettier_action@master
+        uses: Mr-Coxall/prettier_action@master
         with:
           # run Prettier and change any code that needs fixing, before next section
           prettier_options: --write **/*.{html,css,js,md}
